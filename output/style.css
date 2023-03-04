@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Header */
+  .team-heading {
+    background-color: red;
+  }
+  
+  .team-heading h1 {
+    color: white;
+    font-size: 30px;
+  }
+  
+  /* Team profiles */
+  .team-area {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .employee-card {
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Team head section */
+  .card-header {
+    background-color: rgb(0, 106, 255);
+    color: white;
+    
+  }
+  
+  /* Team body section */
+  #ID,
+  #body-email,
+  #body-info {
+    font-size: 11px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+  }
+  
+  #body-info:hover,
+  #body-email:hover,
+  #ID:hover {
+    background-color: rgb(229, 229, 229);
+    transition: 0.1s all ease-in-out;
+  }
