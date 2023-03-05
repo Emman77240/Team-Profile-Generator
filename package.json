@@ -1,6 +1,6 @@
 {
   "main": "index.js",
-  
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
@@ -8,5 +8,8 @@
     "inquirer": "^9.1.4",
     "jest": "^29.4.3",
     "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2"
   }
 }

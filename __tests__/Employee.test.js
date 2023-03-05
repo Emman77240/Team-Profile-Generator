@@ -1,4 +1,4 @@
-const Employee = require("../lib/Employee.js");
+import Employee from "../lib/Employee.js";
 
 test("Can instantiate Employee instance", () => {
   const e = new Employee();
