@@ -3,8 +3,7 @@
 
 
 ## Description
-The code in this repository generates a team's profile page from inputs added by the user via the terminal. The inquirer module grabs user input, while the file system module creates the files.  This application prompts for team members which include a manager, engineers and interns. A live demo can be found [here](https://emman77240.github.io/Team-Profile-Generator/).
-
+The code in this repository generates a team's profile page from inputs added by the user via the terminal. The inquirer module grabs user input, while the file system module creates the files.  This application prompts for team members which include a manager, engineers and interns. 
 
 ## Installation
 
