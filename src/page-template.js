@@ -3,13 +3,13 @@ const generateTeam = team => {
 
     // creates the manager html
     const generateManager = manager => {
-        const { name, id, email, role, officeNumber } = manager.manager;
+        const { name, id, email, officeNumber } = manager.manager;
 
         return `
         <div class="card employee-card">
         <div class="card-header">
             <h2 class="card-title">${name}</h2>
-            <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>${role}</h3>
+            <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>Manager</h3>
         </div>
         <div class="card-body">
             <ul class="list-group">
@@ -28,7 +28,7 @@ const generateTeam = team => {
         <div class="card employee-card">
     <div class="card-header">
         <h2 class="card-title">${engineer.name}</h2>
-        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>${engineer.role}</h3>
+        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>Engineer</h3>
     </div>
     <div class="card-body">
         <ul class="list-group">
@@ -47,7 +47,7 @@ const generateTeam = team => {
         <div class="card employee-card">
     <div class="card-header">
         <h2 class="card-title">${intern.name}</h2>
-        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>${intern.role}</h3>
+        <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>Intern</h3>
     </div>
     <div class="card-body">
         <ul class="list-group">
